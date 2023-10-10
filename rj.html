@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body style="background-color: #0D2329; color: white;">
+
+<div class="cover">
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo256.jpeg" alt="Logo" width="60" height="40" class="d-inline-block align-text-top">
+                Abhaya
+            </a>
+        </div>
+    </nav>
+    <div class="head">
+        <h1 style="padding-top: 2px;">Registration</h1>
+    </div>
+    <div class="container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your name">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Age</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your age">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Profile picture</label>
+            <input type="file" class="form-control" id="exampleFormControlInput1" placeholder="">
+           
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Gender</label>
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+            <datalist id="datalistOptions">
+                <option value="Male">
+                <option value="Female">
+                <option value="Other">
+            </datalist>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Parent or child</label>
+            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+            <datalist id="datalistOptions">
+                <option value="Parent">
+                <option value="Child">
+                <option value="Other">
+            </datalist>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+   
+        </div>
+       
+        
+    </div>
+</div>
+<div class="container">
+<a class="btn btn-style" href="login.html" role="button" style="background-color:white; color: black; border-radius: 24px;"> Register</a>
+<footer class="page-footer font-small mdb-color darken-3 pt-4">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-6">
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="footer-copyright text-center py-3">Developed by Abhaya</div>
+    <div class="footer-copyright text-center py-3">© 2023 Copyright:</div>
+</footer>
+
+<style>
+    .head {
+        font-family: serif;
+        text-align: center;
+    }
+</style>
